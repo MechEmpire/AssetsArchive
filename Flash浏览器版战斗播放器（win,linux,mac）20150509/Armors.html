@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN">
+	<head>
+		<title>Armors</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+			<!-- Adobe 建议开发人员使用 SWFObject2 进行 Flash Player 检测。 -->
+			<!-- 有关详细信息，请参阅 Google 代码中的 SWFObject 页 (http://code.google.com/p/swfobject/)。 -->
+			<!-- 还可在 Adobe Developer Connection 下的"Detecting Flash Player versions and embedding SWF files with SWFObject 2"中获得信息 -->
+			<!-- 设为要求的最低 Flash Player 版本，或设为 0 表示不检测版本 -->
+			var swfVersionStr = "11.2.0";
+			<!-- xiSwfUrlStr 可用于定义快速安装程序 SWF。 -->
+			var xiSwfUrlStr = "";
+			var flashvars = {};
+			var params = {};
+			params.quality = "high";
+			params.bgcolor = "#000000";
+			params.play = "true";
+			params.loop = "true";
+			params.wmode = "gpu";
+			params.scale = "showall";
+			params.menu = "true";
+			params.devicefont = "false";
+			params.salign = "";
+			params.allowscriptaccess = "sameDomain";
+			var attributes = {};
+			attributes.id = "Armors";
+			attributes.name = "Armors";
+			attributes.align = "middle";
+			swfobject.createCSS("html", "height:100%; background-color: #000000;");
+			swfobject.createCSS("body", "margin:0; padding:0; overflow:hidden; height:100%;");
+			swfobject.embedSWF(
+				"Armors.swf", "flashContent",
+				"1366", "768",
+				swfVersionStr, xiSwfUrlStr,
+				flashvars, params, attributes);
+		</script>
+	</head>
+	<body>
+		<!-- 当得到足够的 JavaScript 和 Flash 插件支持时，SWFObject 的动态嵌入方法将此可替代 HTML 内容替换为 Flash 内容。 -->
+		<div id="flashContent">
+			<a href="http://www.adobe.com/go/getflash">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获得 Adobe Flash Player" />
+			</a>
+			<p>此页要求 Flash Player 版本 11.2.0 或更高版本。</p>
+		</div>
+	</body>
+</html>
